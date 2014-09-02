@@ -49,9 +49,9 @@ def type_to_core_count(instance_type):
         return 1
     if instance_type.endswith('.large'):
         return 2
-    if instance_type.endswith('xlarge'):
+    if instance_type.endswith('.xlarge'):
         return 4
-    if instance_type.endswith('2xlarge'):
+    if instance_type.endswith('.2xlarge'):
         return 8
     if instance_type.endswith('.4xlarge'):
         return 16
