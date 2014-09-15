@@ -1,3 +1,4 @@
+# See http://www.deplication.net/2014/09/aws-script-of-day-cascade-delete-of.html
 import sys
 import argparse
 import boto.ec2
